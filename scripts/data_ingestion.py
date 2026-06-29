@@ -29,7 +29,7 @@ def load_and_profile_datasets():
             
             print(f"Shape: {df.shape}")
             print("\nData Types:")
-            print(df.dtypes.to_dict())  # Shortened printing format
+            print(df.dtypes.to_dict())  
             print(f"Loaded {len(df)} rows successfully.")
             print("-" * 50)
         else:
